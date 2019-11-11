@@ -1,23 +1,20 @@
 {
-  "name": "cat-energy-18",
-  "version": "17.0.0",
-  "private": true,
-  "description": "Личный проект «Кэт энерджи» от HTML Academy",
-  "devDependencies": {
-    "@htmlacademy/editorconfig-cli": "1.x",
-    "stylelint": "10.1.x",
-    "stylelint-config-htmlacademy": "0.1.x"
-  },
+  "name": "fair-trade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "editorconfig": "editorconfig-cli",
-    "stylelint": "stylelint .",
-    "test": "npm run editorconfig"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "editorconfig-cli": [
-    "*.json",
-    "source/*.html"
-  ],
-  "engines": {
-    "node": "8.16"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashmir1/fair-trade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashmir1/fair-trade/issues"
+  },
+  "homepage": "https://github.com/kashmir1/fair-trade#readme"
 }

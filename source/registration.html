@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>FAIRTRADE.SU - Свободная Торговля - Регистрация участника</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo" href="index.html">
+        <img class="page-header__logo-image" src="https://via.placeholder.com/223x68" width="223" height="68" alt="FAIRTRADE.SU - Свободная Торговля">
+      </a>
+      <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a class="main-nav__link" href="pay.html">Покупка</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="sale.html">Продажа</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="barter.html">Бартер</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="member-search.html">Поиск участника</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="how-it-work.html">Как это работает</a></li>
+          </ul>
+          <ul class="main-nav__list user-list">
+            <li class="user-list__item">
+              <a class="user-list__enter" href="login.html">Вход</a>
+              <span class="user-list__separate-link">/</span>
+              <a class="user-list__registration" href="#">Регистрация</a>
+            </li>
+          </ul>
+      </nav>
+    </header>
+
+    <main class="page-registration">
+      <div class="single-menu">
+
+      </div>
+
+      <section class="registration">
+        <h1 class="inner-header">Регистрация участника</h1>
+        <form class="registration__form" action="index.html" method="post">
+          <select class="registration__profile" name="profile">
+            <option class="registration__choose--start" value="" disabled selected hidden>Выбор профиля деятельности</option>
+            <option class="registration__choose" value="Завод производитель">Завод производитель</option>
+            <option class="registration__choose" value="Дистрибьютор">Дистрибьютор</option>
+            <option class="registration__choose" value="Оптовик">Оптовик</option>
+            <option class="registration__choose" value="Торговая сеть">Торговая сеть</option>
+            <option class="registration__choose" value="Розница">Розница</option>
+          </select>
+
+          <input class="registration__input" type="text" name="login" value="" placeholder="Логин" required>
+          <input class="registration__input" type="password" name="password" value="" placeholder="Пароль" required>
+          <input class="registration__input" type="text" name="email" value="" placeholder="E-mail" required>
+          <input class="registration__input" type="text" name="phone" value="" placeholder="Телефон" required>
+          <p class="registration__rules">Нажимая на кнопку «Зарегистрироваться», вы даете <a class="registration__rules--link" href="rules.html">Согласие</a> на обработку
+            персональных данных и принимаете <a class="registration__rules--link" href="terms-use.html">Условиями использования
+            </a></p>
+          <button class="registration__button button" type="submit" name="button">Зарегистрироваться</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__nav">
+        <h3 class="page-footer__nav-name">Пользователям сайта</h3>
+        <ul class="page-footer__nav-list">
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href="terms-use.html">Пользовательское соглашение</a>
+          </li>
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href="posting-rules.html">Правила размещения информации</a>
+          </li>
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href="privacy-policy.html">Политика конфиденциальности</a>
+          </li>
+        </ul>
+        <h3 class="page-footer__nav-name">Важная информация</h3>
+        <ul class="page-footer__nav-list">
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href="partners.html">Партнерам</a>
+          </li>
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href="faq.html">Вопросы и ответы</a>
+          </li>
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href="site-map.html">Карта сайта</a>
+          </li>
+        </ul>
+        <a class="page-footer__phone" href="tel:+78001110000">8 800 111-00-00</a>
+      </div>
+    </footer>
+
+  </body>
+</html>
