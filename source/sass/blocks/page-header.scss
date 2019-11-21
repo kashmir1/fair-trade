@@ -1,0 +1,10 @@
+.page-header {
+  display: flex;
+  @include font-rubik;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-header__logo-image {
+  margin-top: 10px;
+}
