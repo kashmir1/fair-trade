@@ -488,6 +488,9 @@ template {
   .registration__profile:focus {
     border: solid 2px #0c5fc5; }
 
+.registration__profile::-ms-expand {
+  display: none; }
+
 .single-menu {
   position: absolute;
   width: 34px;
