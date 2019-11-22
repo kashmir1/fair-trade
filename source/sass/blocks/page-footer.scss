@@ -1,4 +1,10 @@
+.center {
+  margin: 0 auto;
+}
+
 .page-footer {
+  width: 100%;
+  min-width: 1110px;
   background-color: #e8eaed;
   padding-top: 30px;
   @include font-rubik;
@@ -78,6 +84,7 @@
 }
 
 .page-footer__copyright {
+  display: flex;
   margin: 0;
   color: #4a5460;
   font-size: 12px;

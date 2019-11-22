@@ -323,12 +323,16 @@ template {
 .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .main-nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -410,6 +414,8 @@ template {
   padding: 0; }
 
 .page-registration {
+  width: 100%;
+  min-width: 1110px;
   background-color: #f6f6f6;
   background-image: url("../img/bg-texture.png");
   padding-bottom: 80px; }
@@ -499,7 +505,12 @@ template {
   background-image: url("../img/menu.svg");
   background-repeat: no-repeat; }
 
+.center {
+  margin: 0 auto; }
+
 .page-footer {
+  width: 100%;
+  min-width: 1110px;
   background-color: #e8eaed;
   padding-top: 30px;
   font-family: "Rubik", "Arial", sans-serif; }
@@ -572,6 +583,9 @@ template {
   background-color: #cfd3da; }
 
 .page-footer__copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 0;
   color: #4a5460;
   font-size: 12px; }
