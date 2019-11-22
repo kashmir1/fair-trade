@@ -401,7 +401,8 @@ template {
   border-radius: 30px;
   padding-top: 20px;
   padding-bottom: 22px;
-  cursor: pointer; }
+  cursor: pointer;
+  border: 0; }
 
 .container {
   width: 1110px;
